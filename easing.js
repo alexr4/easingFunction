@@ -4,7 +4,6 @@
     var end = 1.0;
     var duration = 1.0;
     var inc = end - start;
-    Matf.clamp
     return clamp(inc*time/duration + start, 0, 1);
   }
 
